@@ -1,0 +1,35 @@
+table,tr,td{
+    border: 3px solid rgb(173, 133, 4);
+}
+.class{
+    padding: 1cm;
+}
+.class1{
+    padding: 10px;
+}
+.java{
+    background-color: pink;
+    
+}
+.table,td:hover{
+    background-color: rgb(246, 254, 4);
+    
+}
+.python{
+    background-color: greenyellow;
+}
+.css{
+    background-color: blue;
+}
+.html{
+    background-color: red;
+}
+.hiddentxt {
+  
+  }
+  .hiddenimg {
+    display: none;
+  }
+  .hiddentxt:hover ~ .hiddenimg {
+    display: block;
+  }  

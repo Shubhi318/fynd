@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,400;1,300&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <!-- ----------------NAVBAR------------- -->
+      <div id="navbar">
+        <img src="images/logo.png" class="logo" />
+        <nav>
+          <ul>
+            <li><a href="">HOME</a></li>
+            <li><a href="#card2">REGION</a></li>
+            <li><a href="#register">BOOK NOW</a></li>
+            <li><a href="#about">ABOUT</a></li>
+          </ul>
+        </nav>
+        <img src="images/menu.png" class="menu" />
+      </div>
+
+      <!-- --------------SAHARA---------------- -->
+
+      <table>
+        <tr>
+          <td>
+            <h1 style="font-size: 1cm">
+           Sahara Desserts
+            <br />
+            <h6 style="font-size: 15px">
+              The Sahara is a desert on the African continent. With an area of
+              9,200,000 square kilometres, it is the largest hot desert in the
+              world and the third largest desert overall, smaller only than the
+              deserts of Antarctica and the northern Arctic.
+            </h6>
+            <br />
+            <button class="explore">Explore</button>
+          </td>
+
+          <td class="card card1">
+            <b class="col">Western Desserts</b>
+          </td>
+          <td class="card" id="card2">
+            <b class="col">Al Bagawat</b>
+          </td>
+        </tr>
+
+        <tr>
+          <!-- <td class="button"></td> -->
+          <td>&nbsp;</td>
+          <td class="card card3">
+            <b class="col">Pyramid of Giza</b>
+          </td>
+          <td class="card" id="card4">
+            <a href="" target="_self"><b class="col">Kalahari Dessert</b></a>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- ------------------REGISTER------------------ -->
+    <div class="div2">
+      <table>
+        <tr>
+          <td class="login">
+            <div class="left">
+              <center style="font-size: 30px">
+                <i><b>Already Registered?</b></i>
+              </center>
+              <center class="letter-spacing">
+                <b><u>LOGIN</u></b>
+              </center>
+              <br />
+
+              <form action="thanks.html" target="_blank">
+                <label for="mail">E-Mail ID: &nbsp;&nbsp; </label>
+                <input
+                  type="email"
+                  name="mail"
+                  id="mail"
+                  placeholder=" &nbsp; Enter valid E-Mail"
+                  required
+                /><br />
+
+                <label for="password">Password:</label>
+                <input
+                  type="password"
+                  name="password"
+                  id="password"
+                  placeholder=" &nbsp; password"
+                  required
+                /><br />
+                <center>
+                  <input type="submit" value="Login" class="button" />
+                </center>
+                <br /><br />
+              </form>
+              <br />
+
+              Login with: &nbsp;
+              <img src="images/google.jpg" width="30px" alt="" class="img" />&nbsp;
+              <img src="images/fb.png" width="30px" alt="" class="img" />&nbsp;
+              <img src="images/twitter.jpg" width="60px" alt="" class="img" />&nbsp;
+            </div>
+          </td>
+
+          <td class="vr"></td>
+
+          <td id="register">
+            <div class="right">
+              <center class="letter-spacing">
+                <b><u>REGISTER</u></b>
+              </center>
+              <br />
+
+              <form action="thanks.html" target="_blank">
+                <label for="fname">First Name:</label>
+                <input
+                  type="text"
+                  name="fname"
+                  id="fname"
+                  placeholder=" &nbsp; First name"
+                  required
+                /><br />
+
+                <label for="lname">Last Name:</label>
+                <input
+                  type="text"
+                  name="lname"
+                  id="lname"
+                  placeholder=" &nbsp; Last name"
+                  required
+                /><br />
+
+                <label for="mail">E-Mail ID: &nbsp;&nbsp; </label>
+                <input
+                  type="email"
+                  name="mail"
+                  id="mail"
+                  placeholder=" &nbsp; Enter valid E-Mail"
+                  required
+                /><br />
+
+                <label for="tel">Phone no. :</label>
+                <input
+                  type="tel"
+                  name="tel"
+                  id="tel"
+                  placeholder=" &nbsp; XXXXXXXXXX"
+                  maxlength="10"
+                  required
+                /><br />
+
+                <label for="psw">Set Password:</label>
+                <input
+                  type="password"
+                  id="psw"
+                  name="psw"
+                  maxlength="10"
+                  required
+                /><br />
+
+                <label for="dob">Birth Day: &nbsp;</label>
+                <input
+                  type="date"
+                  name="dob"
+                  id="dob"
+                  placeholder=" &nbsp; dd-mm-yy"
+                  required
+                /><br /><br />
+
+                <label for="radio"> Select your preference:</label><br /><br />
+                Special Diet?
+                <input type="radio" name="radio" value="yes" />Yes &nbsp;
+                <input type="radio" name="radio" value="no" /> No <br />
+
+                Allergies?
+                <input type="radio" name="radio" value="yes" />Yes &nbsp;
+                <input type="radio" name="radio" value="no" /> No
+
+                <center>
+                  <input type="submit" value="Register" class="button" />
+                </center>
+              </form>
+            </div>
+          </td>
+        </tr>
+      </table>
+    </div>
+
+    <!-- -----------------------ABOUT----------------------- -->
+
+    <footer id="about">
+      <div id="scroller">
+        <a href="#navbar" style="text-decoration: none; color: black"
+          ><img src="images/top.webp" width="20px" height="20px"
+        /></a>
+      </div>
+
+      <!-- <div class="links">
+      <h4>Related Links</h4> <br>
+      <a href="" style="text-decoration: none; 
+      color:rgb(214, 210, 210)" >Lorem <br> Ipsum <br> Dolor <br> Sit <br><br><br> </a>
+     </div> -->
+
+      <center class="links" style="color: rgb(214, 210, 210)">
+        Webpage created by Shubhangee !
+      </center>
+    </footer>
+  </body>
+</html>

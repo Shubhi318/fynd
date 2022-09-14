@@ -1,0 +1,70 @@
+.head{
+    padding-right: 30px;
+}
+table,td{
+padding-left: 10px;
+padding-right: 10PX;
+padding-top: 20PX;
+padding-bottom: 20PX;
+
+}
+table thead{
+    background-color: rgba(197, 197, 197, 0.426);
+}
+table, tr,td{
+    border: 1px solid rgb(219, 219, 219);
+}
+.BREAK{
+    background-color: red;
+    border-radius: 10PX;
+    padding: 5PX;
+}
+.MONGO{
+    background-color: rgb(189, 91, 189);
+    border-radius: 10PX;
+    padding: 5PX;
+}
+.NODE{
+    background-color: HOTPINK;
+    border-radius: 10PX;
+    padding: 5PX;
+}
+.HTML{
+    background-color: rgb(75, 191, 191);
+    border-radius: 10PX;
+    padding: 5PX;
+}
+.js{
+    background-color: yellow;
+    border-radius: 10PX;
+    padding: 5PX;
+}
+.CSS{
+    background-color: rgb(37, 202, 37);
+    border-radius: 10PX;
+    padding: 5PX;
+}
+.container{
+    position: relative;
+    /* width: 50%; */
+}
+.middle{
+    /* transition: .5s ease; */
+    opacity: 0;
+    position: absolute;
+     /* top: 10%; */
+    /* left: 50%;  */
+    /* width: 250px; */
+    /* left: 350px;
+    top: 100px; */
+    border-radius: 20px;
+    z-index: 1;
+}
+.caption{
+    position: absolute;
+    top: 85%;
+    left: 40%;
+}
+.container:hover  .middle{
+    opacity: 1;
+}
